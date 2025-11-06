@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300..900&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Optional: smooth fade between modes */
+html {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
