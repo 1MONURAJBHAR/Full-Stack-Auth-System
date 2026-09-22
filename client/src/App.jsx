@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Emailverify from './pages/Emailverify'
 import Home from './pages/Home'
 import Login from './pages/Login'
-import ResetPassword from './pages/resetPassword'
+import ResetPassword from './pages/ResetPassword'
 import { ToastContainer } from "react-toastify";
    
 const App = () => {
