@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 export const AppContent = createContext();
 
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL,
+  baseURL: import.meta.env.VITE_BACKEND_URL || "http://localhost:3000",
   withCredentials: true,
 });
 
